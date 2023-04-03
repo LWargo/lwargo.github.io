@@ -1,16 +1,17 @@
 
 /*menu buttons start*/
-.pg-button{
+.topnav a{
     width: 25em;
     height: 15em;
-}
-.pg-current{
-    color:rgb(161, 161, 161) ;
-}
-.pg-selectable{
     color: rgb(218, 115, 212);
+    float:right;
+    text-align: center;
 }
-.pg-selectable:hover{
+
+.topnav a.active{
+    color:rgb(161, 161, 161) ;
+}  
+.topnav a.hover{
     cursor: pointer;
 }
 /*menu buttons end*/
