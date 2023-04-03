@@ -1,0 +1,16 @@
+
+/*menu buttons start*/
+.pg-button{
+    width: 25em;
+    height: 15em;
+}
+.pg-current{
+    color:rgb(161, 161, 161) ;
+}
+.pg-selectable{
+    color: rgb(218, 115, 212);
+}
+.pg-selectable:hover{
+    cursor: pointer;
+}
+/*menu buttons end*/
