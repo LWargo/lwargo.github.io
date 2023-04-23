@@ -1,0 +1,26 @@
+
+
+.topnav a{
+    width: 25em;
+    height: 15em;
+    color: rgb(218, 115, 212);
+    float:right;
+    text-align: center;
+}
+.name{
+    font-family:'Brush Script MT' , cursive;
+    color: rgb(218, 115, 212);
+    font-size: 5rem;
+}
+.synop{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.topnav a.active{
+    color:rgb(161, 161, 161) ;
+}  
+.topnav a.hover{
+    cursor: pointer;
+}
+/*menu buttons end*/
