@@ -18,3 +18,4 @@ function change_img(){
 function start_img_timer(){
     setInterval(change_img, 10000);
 }
+
