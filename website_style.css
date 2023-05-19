@@ -1,18 +1,19 @@
 :root{
     --wargo-secondary-color: rgb(137, 212, 241);
+    --wargo-primary-color: rgb(246, 134, 240);
 }
 
 .topnav a{
     width: 25em;
     height: 15em;
-    color: rgb(218, 115, 212);
+    color: var(--wargo-primary-color);
     float:right;
     text-align: center;
 }
 .name{
     /* used for the Lora Wargo in the top left corner of each page; hope to replace with a graphic at some point in time*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(246, 134, 240);
+    color: var(--wargo-primary-color));
     font-size: 4rem;
 }
 .synop{ 
@@ -31,11 +32,11 @@
 
 .projects{
     color: var(--wargo-secondary-color);
-    width: 1 rem;
-    height: .7 rem;
+    width: 20%;
+    height: 10%;
     border-style: solid;
     border-color: var(--wargo-secondary-color);
-    border-width: 1rem;
+    border-width: 2%;
     fill: none;
 }
 .subtitle{
