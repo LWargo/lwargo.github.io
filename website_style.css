@@ -36,7 +36,7 @@
     height: 10%;
     border-style: solid;
     border-color: var(--wargo-secondary-color);
-    border-width: 2%;
+    border-width: .15 rem;
     fill: none;
 }
 .subtitle{
