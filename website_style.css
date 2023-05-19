@@ -8,11 +8,13 @@
     text-align: center;
 }
 .name{
+    /* used for the Lora Wargo in the top left corner of each page; hope to replace with a graphic at some point in time*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(246, 134, 240);
     font-size: 4rem;
 }
-.synop{
+.synop{ 
+    /* used for the synopsis on the index page */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     font-size: 1rem;
@@ -24,3 +26,9 @@
     cursor: pointer;
 }
 /*menu buttons end*/
+
+.projects{
+    color: rgb(246, 134, 240);
+    width: 1 rem;
+    height: .8 rem;
+}
