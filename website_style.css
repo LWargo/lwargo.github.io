@@ -3,7 +3,9 @@
     --wargo-primary-color: rgb(246, 134, 240);
 }
 body{
-    background-color: linear-gradient( #0e123f 0%, rgb(21, 75, 37) 100%);
+  /*  background-color: linear-gradient( #0e123f 0%, rgb(21, 75, 37) 100%); */
+
+  background-color: blueviolet;
 }
 .topnav a{
     width: 25em;
