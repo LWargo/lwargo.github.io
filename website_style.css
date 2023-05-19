@@ -31,4 +31,6 @@
     color: rgb(246, 134, 240);
     width: 1 rem;
     height: .8 rem;
+    border-color: rgb(246, 134, 240);
+    fill: none;
 }
