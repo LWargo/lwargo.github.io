@@ -2,7 +2,7 @@
     --wargo-secondary-color: rgb(137, 212, 241);
     --wargo-primary-color: rgb(246, 134, 240);
 }
-.fading-background-color{
+body{
     background-color: linear-gradient( #0e123f 0%, rgb(21, 75, 37) 100%);
 }
 .topnav a{
@@ -40,6 +40,8 @@
     border-color: var(--wargo-secondary-color);
     border-width: .15 rem;
     fill: none;
+    padding: auto;
+    text-align: center;
 }
 .subtitle{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
