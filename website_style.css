@@ -1,4 +1,6 @@
-
+:root{
+    --wargo-secondary-color: rgb(137, 212, 241);
+}
 
 .topnav a{
     width: 25em;
@@ -28,16 +30,17 @@
 /*menu buttons end*/
 
 .projects{
-    color: rgb(246, 134, 240);
-    width: 2 rem;
-    height: 1 rem;
+    color: var(--wargo-secondary-color);
+    width: 1 rem;
+    height: .7 rem;
     border-style: solid;
-    border-color: rgb(246, 134, 240);
-    border-width: 3rem;
+    border-color: var(--wargo-secondary-color);
+    border-width: 1rem;
     fill: none;
 }
 .subtitle{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(246, 134, 240);
+    color: var(--wargo-secondary-color);
     font-size: 2rem;
+    text-align: center;
 }
