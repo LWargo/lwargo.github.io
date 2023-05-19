@@ -2,11 +2,7 @@
     --wargo-secondary-color: rgb(137, 212, 241);
     --wargo-primary-color: rgb(246, 134, 240);
 }
-body{
-  /*  background-color: linear-gradient( #0e123f 0%, rgb(21, 75, 37) 100%); */
 
-  background-color: blueviolet;
-}
 .topnav a{
     width: 25em;
     height: 15em;
@@ -42,7 +38,7 @@ body{
     border-color: var(--wargo-secondary-color);
     border-width: .15 rem;
     fill: none;
-    padding: auto;
+    padding-top: .3 rem;
     text-align: center;
 }
 .subtitle{
