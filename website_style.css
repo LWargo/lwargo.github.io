@@ -29,9 +29,14 @@
 
 .projects{
     color: rgb(246, 134, 240);
-    width: 1 rem;
-    height: .8 rem;
+    width: 2 rem;
+    height: 1 rem;
     border-color: rgb(246, 134, 240);
-    border-width: 1rem;
+    border-width: 3rem;
     fill: none;
+}
+.sec_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(246, 134, 240);
+    font-size: 2rem;
 }
