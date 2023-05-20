@@ -41,6 +41,7 @@
     */
     border: none;
     fill: none;
+    background-color: transparent;
     text-align: center;
 }
 .subtitle{
