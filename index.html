@@ -47,6 +47,33 @@
             .projects:hover{
                 cursor: pointer;
             }
+            .popup{
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: var(--wargo-secondary-color);
+                display: none;
+            }
+            .popup-content{
+                background-color: var(--wargo-secondary-color);
+                margin: 10% auto;
+                padding: 1rem;
+                border: .5rem solid #888888;
+                width: 30%;
+                font-weight: bolder;
+            }
+            .popup-content button{
+                display: block;
+                margin: 0 auto;
+            }
+            .show{
+                display: block;
+            }
+    
         </style>
         <title> Lora Wargo</title>
     </head>
@@ -63,8 +90,8 @@
                         <div class="current-projects">
                             <img id="website" src="assets/Untitled 13.png" height="115rem"/>
                             <img id="plane" src="assets/IMG_4062.JPG" height="115rem"/>
-                            <button type="button" class="projects"> Personal Website</button>
-                            <button type="button" class="projects">Private Pilot's License</button>
+                            <button id= "website" type="button" class="projects"> Personal Website</button>
+                            <button id= "ppl" type="button" class="projects">Private Pilot's License</button>
                         </div>
                     </section>
 
