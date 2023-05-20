@@ -2,7 +2,19 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="website_style.css"/>
-        <script type="text/javascript" src="website_functions.js"></script>
+        <script type="text/javascript" src="website_functions.js">
+            website-button.addEventListener("click", function(){
+                myPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function(){
+                myPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function(event){
+                if(event.target == myPopup){
+                    myPopup.classList.remove("show");
+                }
+            });
+        </script>
         <style>
             img{
                 float: right;
@@ -90,11 +102,19 @@
                         <div class="current-projects">
                             <img id="website" src="assets/Untitled 13.png" height="115rem"/>
                             <img id="plane" src="assets/IMG_4062.JPG" height="115rem"/>
-                            <button id= "website" type="button" class="projects"> Personal Website</button>
-                            <button id= "ppl" type="button" class="projects">Private Pilot's License</button>
+                            <button id= "website-button" type="button" class="projects"> Personal Website</button>
+                            <button id= "ppl-button" type="button" class="projects">Private Pilot's License</button>
                         </div>
                     </section>
-
+            <div id="current-projects-popup" class="popup">
+                <div class="popup-content">
+                    <h1> Personal Website</h1>
+                    <p>
+                        Write about my personal website HERE
+                    </p>
+                    <button id="closePopup"> Close </button>
+                </div>
+            </div>
             <footer class="footer"> May 2023. Lora Wargo. Hosted Through GitHub Pages.</footer>
         </body>
     <script>
