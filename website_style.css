@@ -49,5 +49,6 @@
 .footer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(156, 161, 163);
-    font-size: .5rem;
+    text-align: center;
+    font-size: .3rem;
 }
