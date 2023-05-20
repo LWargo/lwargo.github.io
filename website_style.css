@@ -32,8 +32,8 @@
 
 .projects{
     color: var(--wargo-secondary-color);
-    width: 10%;
-    height: 10%;
+    width: 40%;
+    height: 30%;
     border-style: solid;
     border-color: var(--wargo-secondary-color);
     border-width: .15 rem;
@@ -55,6 +55,8 @@
     left: 0;
     bottom: 0;
     padding-top: 1rem;
+    position: absolute;
+    bottom: 0;
     
 }
 .current-projects{
