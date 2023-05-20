@@ -62,4 +62,6 @@
     grid-template-columns: auto auto;
     padding: .2rem;
     gap: 1.5rem;
+    float: left;
+    text-align: center;
 }
