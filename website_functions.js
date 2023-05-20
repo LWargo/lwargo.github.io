@@ -19,7 +19,7 @@ function start_img_timer(){
     setInterval(change_img, 10000);
 }
 
-function popup_box(a){
+function call_popup(a){
     var x = document.getElementById("a");
     if(x.style.visibility == "visible"){
         x.style.visibility = "hidden";
