@@ -40,8 +40,9 @@
     width: 100%;
     left: 0;
     bottom: 0;
+    top: 10rem;
     float: left;
-    position: absolute;
+    position: relative;
     
 }
 
