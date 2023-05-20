@@ -49,9 +49,10 @@
             }
             .popup{
                 position: fixed;
-                z-index: 1;
+                z-index: 12;
                 left: 0;
                 top: 0;
+                bottom: 0;
                 width: 100%;
                 height: 100%;
                 overflow: auto;
@@ -92,11 +93,11 @@
                         <div class="current-projects">
                             <img id="website" src="assets/Untitled 13.png" height="115rem"/>
                             <img id="plane" src="assets/IMG_4062.JPG" height="115rem"/>
-                            <button id= "website-button" type="button" class="projects"> Personal Website</button>
+                            <button id= "website-button" type="button" class="projects" onclick="website-popup.style.display='block';"> Personal Website</button>
                             <button id= "ppl-button" type="button" class="projects">Private Pilot's License</button>
                         </div>
                     </section>
-            <div id="current-projects-popup" class="popup">
+            <div id="website-popup" class="popup">
                 <div class="popup-content">
                     <h1> Personal Website</h1>
                     <p>
