@@ -39,7 +39,6 @@
     border-width: .15 rem;
     fill: none;
     text-align: center;
-    left: 10%;
 }
 .subtitle{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,4 +56,10 @@
     bottom: 0;
     padding-top: 1rem;
     
+}
+.current-projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5rem;
+    gap: 3rem;
 }
