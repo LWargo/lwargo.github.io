@@ -60,6 +60,6 @@
 .current-projects{
     display: grid;
     grid-template-columns: auto auto;
-    padding: 2rem;
+    padding: .2rem;
     gap: 1.5rem;
 }
