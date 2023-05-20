@@ -30,20 +30,7 @@
 }
 /*menu buttons end*/
 
-.projects{
-    color: var(--wargo-secondary-color);
-    width: 70%;
-    height: 30%;
-    /*
-    border-style: solid;
-    border-color: var(--wargo-secondary-color);
-    border-width: .15 rem;
-    */
-    border: none;
-    fill: none;
-    background-color: transparent;
-    text-align: center;
-}
+
 
 .footer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
