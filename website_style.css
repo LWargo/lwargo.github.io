@@ -21,6 +21,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     font-size: 1rem;
+    padding-bottom: 3rem;
 }
 .topnav a.active{
     color:rgb(161, 161, 161) ;
@@ -32,7 +33,7 @@
 
 .projects{
     color: var(--wargo-secondary-color);
-    width: 60%;
+    width: 70%;
     height: 30%;
     /*
     border-style: solid;
@@ -59,8 +60,7 @@
     width: 100%;
     left: 0;
     bottom: 0;
-    height: 1.5rem;
-
+    position: relative;
     
 }
 .current-projects{
