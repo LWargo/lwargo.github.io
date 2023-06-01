@@ -20,7 +20,7 @@
     /* used for the synopsis on the index page */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 .topnav a.active{
     color:rgb(161, 161, 161) ;
@@ -29,10 +29,15 @@
     cursor: pointer;
 }
 /*menu buttons end*/
-
+.gradient-background{
+    /*attempt at making a gradient background*/
+    background-color: #0e123f;
+    background-image: linear-gradient(to bottom, #0e123f, rgb(21, 75, 37));
+}
 
 
 .footer{
+    /* used for footer */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(156, 161, 163);
     text-align: center;
@@ -43,6 +48,87 @@
     top: 30rem;
     float: left;
     position: absolute;
+    padding-top: 40rem;
     
 }
 
+img{
+    /* used for the carosel images*/
+    float: right;
+    
+}
+
+span{
+    /* used for the synopsis positioning*/
+    float: left;
+    offset-position: left 10%;
+    width: 40%;
+    font-size: medium;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    
+}
+.current-projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+.subtitle{
+    /* used for current projects on index*/
+    padding-top: 35rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--wargo-secondary-color);
+    font-size: 3rem;
+    text-align: center;
+    
+}
+.projects{
+    color: var(--wargo-secondary-color);
+    width: 70%;
+    height: 30%;
+    /*
+    border-style: solid;
+    border-color: var(--wargo-secondary-color);
+    border-width: .15 rem;
+    */
+    border: none;
+    fill: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.projects:hover{
+    cursor: pointer;
+}
+.popup{
+    position: fixed;
+    z-index: 12;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--wargo-secondary-color);
+    display: none;
+    visibility: hidden;
+}
+.popup-content{
+    background-color: var(--wargo-secondary-color);
+    margin: 10% auto;
+    padding: 1rem;
+    border: .5rem solid #888888;
+    width: 30%;
+    font-weight: bolder;
+}
+.popup-content button{
+    display: block;
+    margin: 0 auto;
+}
+.show{
+    display: block;
+}

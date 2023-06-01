@@ -4,111 +4,43 @@
         <link rel="stylesheet" type="text/css" href="website_style.css"/>
         <script type="text/javascript" src="website_functions.js"></script>
         <style>
-            img{
-                float: right;
-                
-            }
-            span{
-                float: left;
-                offset-position: left 10%;
-                width: 40%;
-                font-size: medium;
-                padding-bottom: 2.5rem;
-                
-            }
-            .current-projects{
-                display: grid;
-                grid-template-columns: auto auto;
-                padding: .2rem;
-                gap: .5rem;
-                float: left;
-                text-align: center;
-            }
-            .subtitle{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                color: var(--wargo-secondary-color);
-                font-size: 2rem;
-                text-align: center;
-            }
-            .projects{
-                color: var(--wargo-secondary-color);
-                width: 70%;
-                height: 30%;
-                /*
-                border-style: solid;
-                border-color: var(--wargo-secondary-color);
-                border-width: .15 rem;
-                */
-                border: none;
-                fill: none;
-                background-color: transparent;
-                text-align: center;
-            }
-            .projects:hover{
-                cursor: pointer;
-            }
-            .popup{
-                position: fixed;
-                z-index: 12;
-                left: 0;
-                top: 0;
-                bottom: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: var(--wargo-secondary-color);
-                display: none;
-                visibility: hidden;
-            }
-            .popup-content{
-                background-color: var(--wargo-secondary-color);
-                margin: 10% auto;
-                padding: 1rem;
-                border: .5rem solid #888888;
-                width: 30%;
-                font-weight: bolder;
-            }
-            .popup-content button{
-                display: block;
-                margin: 0 auto;
-            }
-            .show{
-                display: block;
-            }
-    
+
         </style>
         <title> Lora Wargo</title>
     </head>
-        <body style="background: linear-gradient(#0e123f 0%, rgb(21, 75, 37) 120%);"> 
-
-                    <h1 class="name">Lora Wargo</h1>
-                    <span class="synop">
-                        Lora Wargo is a well-rounded junior studying at Trinity University, majoring in Computer Science. 
-                        She is also an Air Force Reserves Officer Training Corps cadet at Detachment 842, which is located at the Univeristy of Texas at San Antonio. 
-                    </span>
+        <body style="background: rgb(22, 21, 46)"> 
+            <h1 class="name">Lora Wargo</h1>
+            <main>
+                <span class="synop">
+                    Lora Wargo is a well-rounded junior studying at Trinity University, majoring in Computer Science. 
+                    She is also an Air Force Reserves Officer Training Corps cadet at Detachment 842, which is located at the Univeristy of Texas at San Antonio. 
+                </span>
+                        <!--
+                        <div id="website_info" class="popup">
+                            <div class="popup-content">
+                                <h1> Personal Website</h1>
+                                <p>
+                                    Write about my personal website HERE
+                                </p>
+                                <button id="closePopup"> Close </button>
+                            </div>
+                        </div>
+                    -->
                     <div>
-                    <img id="img" src="assets/Dec2022GoApe.JPG" width="600rem" float="right"/>
+                    <img src="assets/Dec2022GoApe.JPG" width="45%" />
                     </div>
-                    <div id="website_info" class="popup">
-                        <div class="popup-content">
-                            <h1> Personal Website</h1>
-                            <p>
-                                Write about my personal website HERE
-                            </p>
-                            <button id="closePopup"> Close </button>
-                        </div>
+                    <h2 class="subtitle" >Current Projects</h2>
+                    <div class="current-projects" >
+                        <img id="website" src="assets/Untitled 13.png" height="250rem"/>
+                        <img id="plane" src="assets/IMG_4062.JPG" height="250rem"/>
+                        <button id= "website-button" type="button" class="projects" onClick="call_popup(website_info);"> Personal Website</button>
+                        <button id= "ppl-button" type="button" class="projects">Private Pilot's License</button>
                     </div>
-                    <section>
-                        <h2 class="subtitle">Current Projects</h2>
-                        <div class="current-projects">
-                            <img id="website" src="assets/Untitled 13.png" height="115rem"/>
-                            <img id="plane" src="assets/IMG_4062.JPG" height="115rem"/>
-                            <button id= "website-button" type="button" class="projects" onClick="call_popup(website_info);"> Personal Website</button>
-                            <button id= "ppl-button" type="button" class="projects">Private Pilot's License</button>
-                        </div>
-                    </section>
 
-            <footer class="footer"> May 2023. Lora Wargo. Hosted Through GitHub Pages.</footer>
+
+
+            </main>
+            <footer class="footer"> June 2023. Lora Wargo. Hosted Through GitHub Pages.</footer>
         </body>
     <script>
         window.onload=start_img_timer();
