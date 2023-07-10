@@ -6,6 +6,7 @@ images[1]=src="assets/Jan2022Pilot.JPEG";
 images[2]=src="assets/May2021OrangeSunshine.jpg";
 images[3]=src="assets/Apr2023OCPs.JPG";
 images[4]=src="assets/Dec2022GoApe.JPG";
+let website_popup = document.getElementById("website_info")
 
 function change_img(){
     if(x== 4){
@@ -26,4 +27,10 @@ function call_popup(a){
     }else{
         console.log("failed launch for popup box");
     }
+}
+function openWebsitePopup(){
+    website_popup.classList.add("show");
+}
+function closeWebsitePopup(){
+    website_popup.classList.remove("show");
 }

@@ -48,7 +48,7 @@
     top: 30rem;
     float: left;
     position: absolute;
-    padding-top: 40rem;
+    padding-top: 50rem;
     
 }
 
@@ -77,7 +77,7 @@ span{
 }
 .subtitle{
     /* used for current projects on index*/
-    padding-top: 35rem;
+    padding-top: 40rem;
     padding-left: 5rem;
     padding-right: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -105,30 +105,49 @@ span{
     cursor: pointer;
 }
 .popup{
-    position: fixed;
-    z-index: 12;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     background-color: var(--wargo-secondary-color);
-    display: none;
+    width: 80rem;
+    position: absolute;
+    transform: translate(-50%,-50%) ;
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: “Poppins”,sans-serif;
+    text-align: center;
+    transform: translate(-50%,-50%);
     visibility: hidden;
 }
+/*
 .popup-content{
     background-color: var(--wargo-secondary-color);
-    margin: 10% auto;
-    padding: 1rem;
-    border: .5rem solid #888888;
-    width: 30%;
+    border: .5rem solid var(--wargo-secondary-color);
+    width: 80rem;
     font-weight: bolder;
 }
-.popup-content button{
+*/
+.popup button{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background: none;
+    border: 0;
+    outline: black;
+    font-size: 1rem;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
+}
+.popup img{
+    width: 100px;
+    
+}
+.popup h3{
+    font-size: 2rem;
+}
+.popup p{
+    font-size: 1rem;
+    font-weight: 500;
 }
 .show{
-    display: block;
+    visibility: visible;
 }

@@ -15,28 +15,28 @@
                     Lora Wargo is a well-rounded junior studying at Trinity University, majoring in Computer Science. 
                     She is also an Air Force Reserves Officer Training Corps cadet at Detachment 842, which is located at the Univeristy of Texas at San Antonio. 
                 </span>
-                        <!--
-                        <div id="website_info" class="popup">
-                            <div class="popup-content">
-                                <h1> Personal Website</h1>
-                                <p>
-                                    Write about my personal website HERE
-                                </p>
-                                <button id="closePopup"> Close </button>
-                            </div>
-                        </div>
-                    -->
+                        
+
                     <div>
-                    <img src="assets/Dec2022GoApe.JPG" width="45%" />
+                    <img id="img" src="assets/Dec2022GoApe.JPG" width="45%" />
                     </div>
                     <h2 class="subtitle" >Current Projects</h2>
                     <div class="current-projects" >
                         <img id="website" src="assets/Untitled 13.png" height="250rem"/>
                         <img id="plane" src="assets/IMG_4062.JPG" height="250rem"/>
-                        <button id= "website-button" type="button" class="projects" onClick="call_popup(website_info);"> Personal Website</button>
+                        <button id= "website-button" type="button" class="projects" onClick="openWebsitePopup()"> Personal Website</button>
                         <button id= "ppl-button" type="button" class="projects">Private Pilot's License</button>
                     </div>
+                    <div id="website_info" class="popup">
 
+                            <h3> Personal Website</h3>
+                            <p>
+                                Write about my personal website HERE
+                            </p>
+                            <button type="button" hover="pointer" onclick="closeWebsitePopup()"> Close </button>
+
+                    </div>
+                
 
 
             </main>
@@ -44,18 +44,6 @@
         </body>
     <script>
         window.onload=start_img_timer();
-        /*
-        website-button.addEventListener("click", function(){
-                myPopup.classList.add("show");
-            });
-            closePopup.addEventListener("click", function(){
-                myPopup.classList.remove("show");
-            });
-            window.addEventListener("click", function(event){
-                if(event.target == myPopup){
-                    myPopup.classList.remove("show");
-                }
-            });
-            */
+
     </script>
 </html>
