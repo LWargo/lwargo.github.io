@@ -1,14 +1,36 @@
 :root{
+    /*variables that I use for the entire website*/
     --wargo-secondary-color: rgb(137, 212, 241);
     --wargo-primary-color: rgb(246, 134, 240);
+    --uniform-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.topnav a{
-    width: 25em;
-    height: 15em;
-    color: var(--wargo-primary-color);
-    float:right;
+.topnav{
+    /*formatting for all menu items except for the most left one*/
+    width: 10%;
+    height: 25%;
+    font-size: x-large;
+    font-family: var(--uniform-font);
+    background-color: var(--wargo-primary-color);
     text-align: center;
+    overflow: hidden;
+    margin-top: 7.5%;
+    margin-left: 1%;
+
+    
+}
+.topnav-leftmost{
+    /*formatting for the most left menu item*/
+    width: 10%;
+    height: 25%;
+    font-size: x-large;
+    font-family: var(--uniform-font);
+    background-color: var(--wargo-primary-color);
+    text-align: center;
+    overflow: hidden;
+    margin-top: 7.5%;
+    margin-left: 30%;
+    
 }
 .name{
     /* used for the Lora Wargo in the top left corner of each page; hope to replace with a graphic at some point in time*/
@@ -16,19 +38,35 @@
     color: var(--wargo-primary-color);
     font-size: 4rem;
 }
+.website_name_format{
+    /* this is the container for the entire top bar (name plus navbar)*/
+    display: flex;
+}
 .synop{ 
     /* used for the synopsis on the index page */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--uniform-font);
     color: aliceblue;
     font-size: 1.4rem;
 }
-.topnav a.active{
-    color:rgb(161, 161, 161) ;
+.topnav:active{
+    background-color:var(--wargo-secondary-color) ;
 }  
-.topnav a.hover{
+.topnav:hover{
     cursor: pointer;
 }
+.topnav-leftmost:active{
+    background-color:var(--wargo-secondary-color) ;
+}  
+.topnav-leftmost:hover{
+    cursor: pointer;
+}
+.topnav-current{
+    background-color: var(--wargo-secondary-color);
+}
 /*menu buttons end*/
+
+
+
 .gradient-background{
     /*attempt at making a gradient background*/
     background-color: #0e123f;
@@ -38,7 +76,7 @@
 
 .footer{
     /* used for footer */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--uniform-font);
     color:rgb(156, 161, 163);
     text-align: center;
     font-size: 1 rem;
@@ -48,6 +86,7 @@
     float: left;
     position: absolute;
     padding-top: 50rem;
+    z-index: -3;
     
 }
 
@@ -73,7 +112,7 @@ span{
     padding-top: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--uniform-font);
     color: var(--wargo-secondary-color);
     font-size: 3rem;
     text-align: center;
@@ -143,4 +182,34 @@ span{
 }
 .show{
     visibility: visible;
+}
+.background-bar{
+    width: 100%;
+}
+.trinity-bar{
+    font-size: 4rem;
+    font-family: var(--uniform-font);
+    text-align: center;
+    color: aliceblue;
+    background: linear-gradient(.25turn, maroon, 80%, white);
+    font-size: 3.5rem;
+    text-align: center;
+}
+.leonard-bar{
+    margin-top: 10%;
+    font-size: 4rem;
+    font-family: var(--uniform-font);
+    text-align: center;
+    color: aliceblue;
+    font-size: 3.5rem;
+    text-align: center;
+    background: linear-gradient(.25turn, rgb(26, 65, 182), 80%, gold);
+}
+.school-dates{
+    text-align: center;
+    width: 100%;
+}
+.right-align-synop{
+    float: right;
+    padding-right: 20%;
 }
