@@ -94,7 +94,7 @@
     padding-top: 50rem;
 }
 .ed-footer-pad{
-    padding-top: 50rem;
+    padding-top: 53rem;
 }
 
 .synop-pos{
@@ -236,4 +236,60 @@
 .ed-college-name{
 /*used for the formatting of the names of the colleges on the education page */
 margin-bottom: 0%;
+}
+
+.ed-subtitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 3rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+  /*  margin-left: 40%;*/
+    background-color: var(--wargo-secondary-color);
+    
+}
+.ed-container{
+    position: absolute;
+}
+.ed-container .btn-LHS{
+    position: absolute;
+    top: 70%;
+    left: 94.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: transparent;
+    font-size: 16px;
+   /* padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 75%;
+    width: 10%;
+}
+.ed-container .btn-TU{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: transparent;
+    font-size: 16px;
+   /* padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 75%;
+}
+.ed-container .btn-LHS:hover{
+    color: white;
+    background-color: black;
+    transition: top 60s;
+}
+.ed-container .btn-TU:hover{
+    color: white;
+    background-color: black;
+    transition: top 60s;
 }
