@@ -217,7 +217,7 @@
     margin-right: 20%;
     font-family: var(--uniform-font);
     color: aliceblue;
-    font-size: 1.3rem;
+    font-size: large;
 }
 .right-align-synop{
     float: right;
