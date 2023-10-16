@@ -96,7 +96,9 @@
 .ed-footer-pad{
     padding-top: 53rem;
 }
-
+.lhs-footer-pad{
+    padding-top: 47rem;;
+}
 .synop-pos{
     /* used for the synopsis positioning; make sure to use in conjection with synop*/
     float: left;
@@ -190,27 +192,29 @@
     visibility: visible;
 }
 .background-bar{
-    width: 25%;
-    margin-left: 10%;
-    float: left;
     font-family: var(--uniform-font);
-    text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: 3rem;
-    text-align: center;
     margin-bottom: 0%;
 }
 .trinity-bar{
     background: linear-gradient(.25turn, maroon, 80%, white);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
 }
 .leonard-bar{
-    background: linear-gradient(.25turn, rgb(26, 65, 182), 80%, gold);
+    background: linear-gradient(.25turn, rgb(251, 227, 91), 20%, rgb(26, 65, 182));
+    float: inline-end;
+    width: 70%;
+
 }
 .school-dates{
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: var(--uniform-font);
     color: aliceblue;
     font-size: 1.3rem;
@@ -236,6 +240,8 @@
 .ed-college-name{
 /*used for the formatting of the names of the colleges on the education page */
 margin-bottom: 0%;
+text-align: center;
+
 }
 
 .ed-subtitle{
