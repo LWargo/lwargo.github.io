@@ -3,11 +3,13 @@
     --wargo-secondary-color: rgb(137, 212, 241);
     --wargo-primary-color: rgb(246, 134, 240);
     --uniform-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --wargo-tertiary-color: rgb(194, 184, 184);
+
 }
 
 .topnav{
     /*formatting for all menu items except for the most left one*/
-    width: 10%;
+   /*  width: 10%; */
     height: 25%;
     font-size: x-large;
     font-family: var(--uniform-font);
@@ -95,6 +97,9 @@
 }
 .ed-footer-pad{
     padding-top: 53rem;
+}
+.we-footer-pad{
+    padding-top: 95rem;
 }
 .lhs-footer-pad{
     padding-top: 47rem;;
@@ -298,4 +303,33 @@ text-align: center;
     color: white;
     background-color: black;
     transition: top 60s;
+}
+.we-subtitle{
+    font-style: var(--uniform-font);
+    color: aliceblue;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+  /*  margin-left: 40%;*/
+    background-color: transparent;
+
+}
+.we-descrip{
+    margin-left: 20%;
+    font-style: var(--uniform-font);    
+    color: aliceblue;
+}
+.we-icon{
+    width: 4%;
+    display: inline-block;
+    border-radius: 0;
+    margin-right: 0%;
+    margin-left: 23%;
+}
+.we-float-parent{
+    width: 90%;
+}
+.we-float-child{
+    float: left;
 }
