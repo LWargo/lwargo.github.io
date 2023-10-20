@@ -329,6 +329,7 @@ text-align: center;
 }
 .we-float-parent{
     width: 90%;
+    color: aliceblue;
 }
 .we-float-child{
     float: left;
