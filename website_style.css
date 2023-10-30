@@ -96,10 +96,12 @@
     padding-top: 50rem;
 }
 .ed-footer-pad{
-    padding-top: 53rem;
+    padding-top: 33rem;
+    top: 40%;
 }
 .we-footer-pad{
-    padding-top: 95rem;
+    padding-top: 80rem;
+    top: 60%;
 }
 .lhs-footer-pad{
     padding-top: 47rem;;
@@ -316,9 +318,10 @@ text-align: center;
 
 }
 .we-descrip{
-    margin-left: 20%;
+    margin-left: 30%;
     font-style: var(--uniform-font);    
     color: aliceblue;
+    width: 60%;
 }
 .we-icon{
     width: 4%;
@@ -326,11 +329,8 @@ text-align: center;
     border-radius: 0;
     margin-right: 0%;
     margin-left: 23%;
+    z-index: -1;
 }
-.we-float-parent{
-    width: 90%;
-    color: aliceblue;
-}
-.we-float-child{
-    float: left;
+.we-pin-hellaBubble{
+    top: 90%
 }
