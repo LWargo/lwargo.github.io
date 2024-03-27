@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="website_style.css"/>
+        <script type="text/javascript" src="website_functions.js"></script>
+        <style>
+            div.scroll-container{
+                background-color: var(--wargo-primary-color);
+                overflow: auto;
+                white-space: nowrap;
+                padding: 1rem;
+            }
+            div.scroll-container img {
+                padding: 1rem;
+                height: 20rem;
+            }
+            div.alert {
+                opacity: 1;
+                transition: opacity 0.6s; /* 600ms to fade out */
+            }
+        </style>
+        <title> Lora Wargo: Work Experience </title>
+    </head>
+        <body style="background: rgb(22, 21, 46)"> 
+            <div class="website_name_format">
+                <img id="Website Name" width="25%"float="left" src="assets/Website Name only pink.PNG"/>
+                <button class="topnav-leftmost" type="button" onclick="window.location.href='index.html'">Home</button>
+                <button class="topnav" type="button" onclick="window.location.href='education.html'">Education</button>
+                <button class="topnav" type="button" onclick="window.location.href='work_experience.html'">Work Experience</button>
+                <button class="topnav topnav-current" type="button" onclick="window.location.href='skills_home.html'">Skills + Interests</button>
+            </div>
+            <main>
+                <p class="ed-subtitle"> Skills + Interests</p>
+                <div class="scroll-container">
+                    <img src="assets/Jan2022Pilot.JPEG">
+                    <img src="assets/Untitled 13.png">
+                    <img src="assets/Apr2023OCPs.JPG">
+                    <img src="assets/CSI_sketch.png">
+                </div>
+
+                <p class="skill-descrip"> Explore by Clicking a Category Below</p>
+                <button class="skill-cat-butt" onclick="showAlert()"> Academic</button>
+                <button class="skill-cat-butt" onclick="showAlert()"> Artistic</button>
+                <button class="skill-cat-butt" onclick="showAlert()"> Athletic</button>
+                <button class="skill-cat-butt" onclick="showAlert()">Aviation</button>
+
+            </main>
+            <footer class="sk-home-footer-pad footer" > January 2024. Lora Wargo. Hosted Through GitHub Pages.</footer>
+        </body>
+    <script>
+        function showAlert(){
+            alert("This portion of the website is currently under construction! Thank you for your patience");
+        }
+    </script>
+</html>
